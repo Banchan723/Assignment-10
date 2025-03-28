@@ -1,0 +1,36 @@
+# 언리얼 엔진 관련 제외
+/Binaries/
+/Build/
+/DerivedDataCache/
+/Intermediate/
+/Saved/
+/Packaging/
+/Plugins/**/Binaries/
+/Plugins/**/Intermediate/
+
+# Visual Studio 관련 제외
+*.sln
+*.suo
+*.vcxproj*
+.vscode/
+.vs/
+
+# 기타 대용량 및 임시 파일 제외
+*.uacas
+*.pak
+*.log
+*.tmp
+*.obj
+*.pdb
+*.ipch
+*.opensdf
+*.sdf
+*.db
+*.db-wal
+*.db-shm
+*.cache
+
+# 프로젝트 파일은 포함
+!*.uproject
+Pakaging/Windows/Plugin/Binaries/Win64/Plugin.exe
+Pakaging/Windows/Plugin/Content/Paks/Plugin-Windows.ucas
